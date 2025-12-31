@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+grasp_desktop.py
+
+原始作者：亚博智能(Yahboom)
+修正維護：Tommy Liu
+版本：0.1.0
+
+說明：
+- 本檔案基於 亚博智能(Yahboom) 原始版本進行修正與維護。
+"""
+
+__version__ = "0.1.0"
+__author__ = "Yahboom（原始） / Tommy（修正維護）"
+
 import rclpy
 import numpy as np
 from std_msgs.msg import Bool,Int16
